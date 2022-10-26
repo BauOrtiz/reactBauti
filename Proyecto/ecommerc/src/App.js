@@ -1,9 +1,11 @@
 import './App.css';
-import ItemListCotainer from './ItemListCotainer'
+import ItemListContainer from './containers/ItemListContainer/index2.jsx';
+import NavBar from './componentes/NavBar/index.jsx';
 function App() {
   return (
     <div className="App">
-      <ItemListCotainer/>
+      <NavBar/>
+      <ItemListContainer greeting = {'Bienvenidos a mi prototype'}/>
     </div>
   );
 }
